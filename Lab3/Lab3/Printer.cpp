@@ -69,6 +69,7 @@ void Printer::PrintAdd(const char* a, const char* b)
         memcpy(x, a, strlen(a));
         memcpy(x + strlen(a), b, strlen(b) + 1);
         cout<< x << endl;
+        free(x);
     }
 }
 
