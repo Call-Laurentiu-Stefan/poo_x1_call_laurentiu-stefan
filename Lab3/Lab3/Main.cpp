@@ -7,13 +7,13 @@ using namespace std;
 
 
 int main() {
-	/*Printer p;
+	Printer p;
 	p.PrintAdd(5, 8);
 	p.PrintAdd(3.64, 2.32, 3.153);
 	p.PrintAdd("aer ", "curat");
 	p.PrintAdd(4, 3, 5 ,7 ,3);
 	p.PrintMul(7, 2);
-	p.PrintMul(3.62, 63.2683);*/
+	p.PrintMul(3.62, 63.2683);
 	Canvas c(10, 10);
 	c.Print();
 	cout << endl;
@@ -28,7 +28,7 @@ int main() {
 	c.Print();
 	c.Clear();
 	cout << endl;
-	c.DrawLine(3, 3, 10, 7, 'X');
+	c.DrawLine(3, 2, 7, 7, 'X');
 	c.Print();
 	c.Clear();
 	return 0;
