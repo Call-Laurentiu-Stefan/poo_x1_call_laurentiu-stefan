@@ -45,4 +45,4 @@ int main(int argc, char* argv[])
 
     read_commands_until_empty(manager);
     return 0;
-}
+}z
